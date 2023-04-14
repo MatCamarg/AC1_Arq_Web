@@ -28,6 +28,7 @@ public class Agendamento {
     private String Cidade;
     private String UF;
     private String CEP;
+    private String Resumo;
 
     @ManyToOne
     @JoinColumn(name="professor_id")
